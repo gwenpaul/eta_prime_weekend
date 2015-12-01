@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1 #{title}
+  p Check out Steve #{title}
+
+    for elem in memes
+      .meme
+        img(src=elem.url)
+        h2.message= elem.title
+        form
+          input(type='text', name='message' placeholder='Introduce Yourself')
+          input(type='submit')

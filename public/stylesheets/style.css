@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  padding: 50px;
+  margin: 10px;
+  font-family: monospace, sans-serif;
+  letter-spacing: 2px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: blue;
+}
+
+a {
+  color: #6917e2;
+}
+
+.meme {
+  width: 30%;
+  margin: 0 auto;
+  float: left;
+}
+
+img {
+  text-shadow: center;
+  text-shadow: center;
+  height: 200px;
+  width: 200px;
+  padding: 10px 10px;
+  margin: 20px auto;
+}
+
+form {
+  text-align: center;
+  padding: 10px 10px;
+  margin: 0 auto;
