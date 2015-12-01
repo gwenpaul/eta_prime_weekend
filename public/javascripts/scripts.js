@@ -10,7 +10,7 @@ $('form').on('submit', function(event){
 // new empty object
   var newComment = {};
 
-// put form's matching inputs into each of the object's properties
+// put form DATA into objects properties
   for (var i = 0; i < addComments.length; i++) {
     if(addComments[i].name === 'message') {
         newComment.message = addComments[i].value;
@@ -20,6 +20,7 @@ $('form').on('submit', function(event){
     }
 
 // ajax call to comments
+//why post?
 $.ajax({
   url: '/comments',
   type: 'post',

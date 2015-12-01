@@ -5,7 +5,7 @@ var comments = require('../data/comments.json');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'MEME-GENERATOR', memes:memes, comments:comments});
+  res.render('index', { title: 'DEGENERATOR STEVE', memes:memes, comments:comments});
 });
 
 module.exports = router;
